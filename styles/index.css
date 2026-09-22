@@ -1,0 +1,87 @@
+.palette{
+    height: 100vh;
+    padding: 2vh;
+    box-sizing: border-box;
+    /* I got help with the units above in order to not use pixels
+    and match to the screen size. Border-box makes sure that no extra 
+    padding will be added on top of the height.*/
+    background-color: white;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+    grid-gap: 2vh;
+}
+
+.palette__swatches--1{
+    grid-column: 1/3 ;
+    grid-row: 1/4;
+    background-color: #775b89;
+}
+
+.palette__swatches--2{
+    grid-column: 1/3;
+    grid-row: 4/7;
+    background-color: #7872a5;
+}
+
+.palette__swatches--3{
+    grid-column: 3/5;
+    grid-row: 1/7;
+    background-color: #51375b;
+}
+
+.palette__swatches--4{
+    grid-column: 5/7;
+    grid-row: 1/3;
+    background-color: #b9d175;
+}
+
+.palette__swatches--5{
+    grid-column: 5/7;
+    grid-row: 3/5;
+    background-color: #d9efbd;
+}
+
+.palette__swatches--6{
+    grid-column: 5/7;
+    grid-row: 5/7;
+    background-color: #f5fbda;
+}
+
+.palette__swatches--7{
+    grid-column: 1/3;
+    grid-row: 7/11;
+    background-color: #9e83b8;
+}
+
+.palette__swatches--8{
+    grid-column: 3;
+    grid-row: 7/9;
+    background-color: #ccbbdb;
+}
+
+.palette__swatches--9{
+    grid-column: 3;
+    grid-row: 9/11;
+    background-color: #ebe5d9;
+}
+
+.palette__swatches--10{
+    grid-column: 4/6;
+    grid-row: 7/11;
+    background-color: #aec891;
+}
+
+.palette__swatches--11{
+    grid-column: 6;
+    grid-row: 7/11;
+    background-color: #81987f;
+}
+
+div div{
+    background-color: #8892a7;
+    color:white;
+    padding: 1vh;
+    grid-column: 1/7;
+    grid-row: 11;
+}
